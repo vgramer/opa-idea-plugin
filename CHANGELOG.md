@@ -1,4 +1,4 @@
-# Release notes for NEXT_VERSION
+# Release notes for v0.5.1
 
 ## Changes by Kind
 
