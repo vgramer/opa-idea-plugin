@@ -18,7 +18,7 @@ jobs:
         platform-version: [ 203, 211 ]
     env:
       ORG_GRADLE_PROJECT_platformVersion: ${{ matrix.platform-version }}
-      ORG_GRADLE_PROJECT_publishChannel: stable
+      ORG_GRADLE_PROJECT_publishChannel: dev
       ORG_GRADLE_PROJECT_publishToken: ${{ secrets.PUBLISH_TOKEN }}
     steps:
       # Cache gradle dependencies
