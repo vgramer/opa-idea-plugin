@@ -1,3 +1,19 @@
+# Release notes for NEXT_VERSION
+
+## Changes by Kind
+
+### Feature
+
+- Generate release note automatically ([#1](https://github.com/vgramer/opa-idea-plugin/pull/1), [@vgramer](https://github.com/vgramer))
+
+### Bug or Regression
+
+- Grammar: allow import between rules and complex expression in else statement ([#80](https://github.com/open-policy-agent/opa-idea-plugin/pull/80), [@vgramer](https://github.com/vgramer))
+
+### Uncategorized
+
+- Awasome new feature ([#12](https://github.com/vgramer/opa-idea-plugin/pull/12), [@vgramer](https://github.com/vgramer))
+
 # Release notes for v0.6.0
 
 ## Changes by Kind
