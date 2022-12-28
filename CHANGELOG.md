@@ -1,3 +1,28 @@
+# Release notes for NEXT_VERSION
+
+## Changes by Kind
+
+### Feature
+
+- Add compatibility for idea based ide version 2022.1 ([#129](https://github.com/open-policy-agent/opa-idea-plugin/pull/129), [@vgramer](https://github.com/vgramer))
+- Add project settings under `Preference -> Languages & Framworks -> Opa` to configure `opa check` options.
+  the `--strict` options is enable by default ([#133](https://github.com/open-policy-agent/opa-idea-plugin/pull/133), [@vgramer](https://github.com/vgramer))
+- Highlight `raw string` and make color configurable in the color setting page. ([#122](https://github.com/open-policy-agent/opa-idea-plugin/pull/122), [@vgramer](https://github.com/vgramer))
+- Plugin compatibility with IDEA 2021.3 ([#119](https://github.com/open-policy-agent/opa-idea-plugin/pull/119), [@vgramer](https://github.com/vgramer))
+
+### Documentation
+
+- Automate release process, create CHANGLOG.md with update the previous releases notes ([#99](https://github.com/open-policy-agent/opa-idea-plugin/pull/99), [@vgramer](https://github.com/vgramer))
+
+### Bug or Regression
+
+- Fix NPE when  loading project ([#138](https://github.com/open-policy-agent/opa-idea-plugin/pull/138), [@vgramer](https://github.com/vgramer))
+- Grammar: allow trailing comma in function arg list ([#132](https://github.com/open-policy-agent/opa-idea-plugin/pull/132), [@vgramer](https://github.com/vgramer))
+
+### Uncategorized
+
+- Version 123445 ([#19](https://github.com/vgramer/opa-idea-plugin/pull/19), [@vgramer](https://github.com/vgramer))
+
 # Release notes for v0.8.0
 
 ## Changes by Kind
