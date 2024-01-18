@@ -9,7 +9,7 @@
 # This script is intended to be run in github action but can run in local.
 #
 # The following tools must be installed and be in the PATH
-#  * hub: the github cli (https://hub.github.com/)
+#  * gh: the github cli (https://cli.github.com/)
 #  * release-notes: the k8s release-notes-generator tools (https://github.com/kubernetes/release#release-notes)
 #                   can be install thanks to go get command:
 #                   GO111MODULE=on go get k8s.io/release/cmd/release-notes@<version>

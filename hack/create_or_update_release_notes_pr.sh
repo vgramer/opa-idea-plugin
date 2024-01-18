@@ -8,7 +8,7 @@
 # This script is intended to be run in github action but can run in local.
 # The following requirements must be satisfied:
 #  * same requirement as hack/generate_release_notes.sh
-#  * the github cli: hub must be installed (https://hub.github.com/)
+#  * the github cli: gh must be installed (https://cli.github.com/)
 ########################################################################################################################
 
 set -o errexit
@@ -18,11 +18,11 @@ set -o pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 source "${ROOT}/hack/util.sh"
 
-util::require-hub
+util::require-gh
 
 release_note_branch='update-release-notes'
 base_branch='master'
-pr_number="$(hub pr list -h update-release-notes --format '%I')"
+pr_number="$(gh pr list -h update-release-notes --format '%I')"
 
 if [[ -z "${pr_number}" ]]; then
   pr_exist=false
@@ -31,7 +31,7 @@ if [[ -z "${pr_number}" ]]; then
 else
   pr_exist=true
   echo "release notes pr already exist (#pr_number)"
-  hub pr checkout "${pr_number}"
+  gh pr checkout "${pr_number}"
   git reset --hard "${base_branch}"
 fi
 
@@ -68,5 +68,5 @@ git push origin "${release_note_branch}" -f
 
 if [[ "${pr_exist}" == false ]]; then
 echo "create release note PR"
-  hub pull-request --base master --head "${release_note_branch}" --file "${ROOT}/.github/release-notes-pr-description.md"
+  gh pull-request --base master --head "${release_note_branch}" --file "${ROOT}/.github/release-notes-pr-description.md"
 fi
