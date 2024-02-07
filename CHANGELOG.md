@@ -1,3 +1,33 @@
+# Release notes for NEXT_VERSION
+
+## Changes by Kind
+
+### Feature
+
+- Add compatibility for idea based ide version 2022.1 ([#129](https://github.com/open-policy-agent/opa-idea-plugin/pull/129), [@vgramer](https://github.com/vgramer))
+- Add project settings under `Preference -> Languages & Framworks -> Opa` to configure `opa check` options.
+  the `--strict` options is enable by default ([#133](https://github.com/open-policy-agent/opa-idea-plugin/pull/133), [@vgramer](https://github.com/vgramer))
+- Add support for IDEA 2022.3 ([#139](https://github.com/open-policy-agent/opa-idea-plugin/pull/139), [@vgramer](https://github.com/vgramer))
+- Compatibility for ide 2023.3. ([#164](https://github.com/open-policy-agent/opa-idea-plugin/pull/164), [@vgramer](https://github.com/vgramer))
+- Highlight `raw string` and make color configurable in the color setting page. ([#122](https://github.com/open-policy-agent/opa-idea-plugin/pull/122), [@vgramer](https://github.com/vgramer))
+- Plugin compatibility with IDEA 2021.3 ([#119](https://github.com/open-policy-agent/opa-idea-plugin/pull/119), [@vgramer](https://github.com/vgramer))
+
+### Documentation
+
+- Automate release process, create CHANGLOG.md with update the previous releases notes ([#99](https://github.com/open-policy-agent/opa-idea-plugin/pull/99), [@vgramer](https://github.com/vgramer))
+
+### Bug or Regression
+
+- Fix NPE when  loading project ([#138](https://github.com/open-policy-agent/opa-idea-plugin/pull/138), [@vgramer](https://github.com/vgramer))
+- Grammar: allow trailing comma in function arg list ([#132](https://github.com/open-policy-agent/opa-idea-plugin/pull/132), [@vgramer](https://github.com/vgramer))
+
+### Uncategorized
+
+- Add support for IDEA 2023.1 ([#144](https://github.com/open-policy-agent/opa-idea-plugin/pull/144), [@SilverSilence](https://github.com/SilverSilence))
+- CI: update opa to version 0.47.4 ([#141](https://github.com/open-policy-agent/opa-idea-plugin/pull/141), [@charlieegan3](https://github.com/charlieegan3))
+- Compatibility with IDEA base ide 2023.2 ([#153](https://github.com/open-policy-agent/opa-idea-plugin/pull/153), [@sandhose](https://github.com/sandhose))
+- Just a test ([#30](https://github.com/vgramer/opa-idea-plugin/pull/30), [@vgramer](https://github.com/vgramer))
+
 # Release notes for v0.11.0
 
 ## Changes by Kind
