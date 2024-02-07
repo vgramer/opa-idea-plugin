@@ -1,4 +1,4 @@
-# Release notes for v0.11.0
+# Release notes for v0.12.1
 
 ## Changes by Kind
 
