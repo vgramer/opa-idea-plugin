@@ -1,12 +1,3 @@
-# Release notes for NEXT_VERSION
-
-## Changes by Kind
-
-### Uncategorized
-
-- CI: fix release-note and publish pipeline ([#169](https://github.com/open-policy-agent/opa-idea-plugin/pull/169), [@vgramer](https://github.com/vgramer))
-- Compatibility for ide 2024.2 ([#173](https://github.com/open-policy-agent/opa-idea-plugin/pull/173), [@steffann](https://github.com/steffann))
-
 # Release notes for v0.13.0
 
 ## Changes by Kind
